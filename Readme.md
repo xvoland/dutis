@@ -1,3 +1,10 @@
+# ATTENTION
+
+I forked this project because it wouldn't compile for MacOS 15.2 (24C101)
+I made some fixes to make it possible.
+
+<hr />
+
 # Dutis
 
 [![CI](https://github.com/tsonglew/dutis/actions/workflows/ci.yml/badge.svg)](https://github.com/tsonglew/dutis/actions/workflows/ci.yml)
