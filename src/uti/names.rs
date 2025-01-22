@@ -1,5 +1,5 @@
-use std::collections::HashMap;
 use lazy_static::lazy_static;
+use std::collections::HashMap;
 
 lazy_static! {
     pub static ref UTI_FRIENDLY_NAMES: HashMap<&'static str, &'static str> = {
@@ -124,9 +124,17 @@ lazy_static! {
 }
 
 pub fn get_friendly_name(uti: &str) -> String {
-    UTI_FRIENDLY_NAMES.get(uti).copied().unwrap_or(uti).to_string()
+    UTI_FRIENDLY_NAMES
+        .get(uti)
+        .copied()
+        .unwrap_or(uti)
+        .to_string()
 }
 
 pub fn get_common_suffix(uti: &str, input_suffix: &str) -> String {
-    format!(".{}", input_suffix)
+    if let Some(suffix) = UTI_COMMON_SUFFIXES.get(uti) {
+        format!(".{}", suffix)
+    } else {
+        format!(".{}", input_suffix)
+    }
 }

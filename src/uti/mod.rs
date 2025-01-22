@@ -1,9 +1,6 @@
 use core_foundation::array::{CFArray, CFArrayRef};
-use core_foundation::base::{CFType, TCFType};
+use core_foundation::base::TCFType;
 use core_foundation::string::{CFString, CFStringRef};
-use std::collections::HashSet;
-use std::ffi::c_void;
-use std::path::Path;
 use std::thread;
 use std::time::Duration;
 
