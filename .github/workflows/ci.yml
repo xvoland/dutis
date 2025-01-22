@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: ["master"]
   pull_request:
-    branches: [ "master" ]
+    branches: ["master"]
 
 env:
   CARGO_TERM_COLOR: always
@@ -15,47 +15,50 @@ jobs:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
-      
+
       - name: Install Rust toolchain
         uses: dtolnay/rust-toolchain@stable
-      
+
       - name: Rust Cache
         uses: Swatinem/rust-cache@v2
-      
+
       - name: Run tests
         run: cargo test --verbose
-        
-  # clippy:
-  #   name: Clippy
-  #   runs-on: macos-latest
-  #   steps:
-  #     - uses: actions/checkout@v3
-      
-  #     - name: Install Rust toolchain
-  #       uses: dtolnay/rust-toolchain@stable
-  #       with:
-  #         components: clippy
-      
-  #     - name: Rust Cache
-  #       uses: Swatinem/rust-cache@v2
-      
-  #     - name: Run clippy
-  #       run: cargo clippy -- -D warnings
 
   build:
     name: Build
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
-      
+
       - name: Install Rust toolchain
         uses: dtolnay/rust-toolchain@stable
-      
+
       - name: Rust Cache
         uses: Swatinem/rust-cache@v2
-      
-      - name: Build
+
+      - name: Install dependencies
+        run: |
+          brew update
+          brew install --cask xcode-select # Убедитесь, что Xcode установлен
+          xcode-select --install           # Установка инструментов командной строки
+
+      - name: Debug build
         run: cargo build --verbose
-      
+
       - name: Build release
         run: cargo build --release --verbose
+
+  check_frameworks:
+    name: Check Frameworks
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Verify CoreServices availability
+        run: |
+          echo "Checking for CoreServices framework"
+          ls /System/Library/Frameworks/CoreServices.framework || echo "CoreServices not found"
+
+      - name: Debug info
+        run: rustc --version --verbose
