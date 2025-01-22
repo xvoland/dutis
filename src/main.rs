@@ -15,7 +15,8 @@ fn check_os() {
         eprintln!(
             "{} {}",
             "⚠️ Warning:".yellow(),
-            "Dutis is designed for macOS and may not work correctly on other operating systems.".yellow()
+            "Dutis is designed for macOS and may not work correctly on other operating systems."
+                .yellow()
         );
         process::exit(1);
     }
@@ -23,7 +24,7 @@ fn check_os() {
 
 fn main() {
     check_os();
-    
+
     let args: Vec<String> = env::args().collect();
 
     if args.len() < 2 {
@@ -34,6 +35,8 @@ fn main() {
     match args[1].as_str() {
         "--version" => {
             println!("dutis {}", VERSION);
+            println!("This is a modified version by Vitalii Tereshchuk (https://dotoca.net)");
+            println!("Github repo: https://github.com/xvoland/dutis");
             process::exit(0);
         }
         "--generate-shell-completion" => {
@@ -57,6 +60,9 @@ fn main() {
 }
 
 fn print_usage() {
+    println!("This is a modified version by Vitalii Tereshchuk (https://dotoca.net)");
+    println!("Github repo: https://github.com/xvoland/dutis");
+
     eprintln!(
         "{} {}",
         "❌".red(),
