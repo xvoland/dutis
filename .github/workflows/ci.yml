@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: ["master"]
+    branches: [ "master" ]
   pull_request:
-    branches: ["master"]
+    branches: [ "master" ]
 
 env:
   CARGO_TERM_COLOR: always
@@ -15,13 +15,13 @@ jobs:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
-
+      
       - name: Install Rust toolchain
         uses: dtolnay/rust-toolchain@stable
-
+      
       - name: Rust Cache
         uses: Swatinem/rust-cache@v2
-
+      
       - name: Run tests
         run: cargo test --verbose
 
@@ -30,22 +30,25 @@ jobs:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
-
+      
       - name: Install Rust toolchain
         uses: dtolnay/rust-toolchain@stable
-
+      
       - name: Rust Cache
         uses: Swatinem/rust-cache@v2
 
-      - name: Install dependencies
+      - name: Ensure Xcode CLI tools are installed
         run: |
-          brew update
-          brew install --cask xcode-select # Убедитесь, что Xcode установлен
-          xcode-select --install           # Установка инструментов командной строки
+          if ! xcode-select -p > /dev/null; then
+            echo "Installing Xcode Command Line Tools..."
+            xcode-select --install
+          else
+            echo "Xcode Command Line Tools are already installed."
+          fi
 
       - name: Debug build
         run: cargo build --verbose
-
+      
       - name: Build release
         run: cargo build --release --verbose
 
