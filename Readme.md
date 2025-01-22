@@ -3,6 +3,75 @@
 I forked this project because it wouldn't compile for MacOS 15.2 (24C101)
 I made some fixes to make it possible.
 
+&copy; 2025, [Vitalii Tereshchuk][home] 
+
+## How to Install and Use
+
+Download the file `dutis-macos.tar.gz` from the `Releases` section and unzip it.
+Inside the archive there is a file `dutis` which you should copy to `/usr/local/sbin` or `/usr/local/bin`
+
+I prefer to use `~/.local/bin`
+So you need to run the command:
+
+```
+chmod +x ./dutis
+sudo xattr -rd com.apple.quarantine ./dutis
+cp ./dutils ~/.local/bin
+```
+
+## Build  from source
+
+Another way is a local build.
+
+```
+git clone https://github.com/xvoland/dutis.git
+cd dutis
+cargo build --release
+```
+
+If the build was successful, you can find the compiled file in
+
+```
+cd target/release
+chmod +x ./dutis
+cp ./dutis ~/.local/bin
+```
+
+
+
+
+# ⚠️ Donation
+
+No matter if I get the money or not, I'm gonna keep making the app better 'cause I love seeing folks use it and reach their goals.<br />
+And you know what? Every $1 really makes a difference for folks like me.<br />
+It helps cover stuff like domain hosting and the hours I put into coding, which would be super awesome and free up some more family time. Thanks a bunch!
+
+### Crypto
+
+**BTC (ERC20):** 0x17496b75d241d377334717f8cbc16cc1a5b80396<br />
+**USDT (TRC20):** TAAsGXjNoQRJ7ewxSBL2W3DUCoG7h8LCT6
+
+
+### Other
+
+[Donate here for my projects][paypal]
+
+<a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9D4YBRWH8QURU'><img alt='Click here to lend your support to my projects and make a donation!' src='https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif' border='0' /></a>
+
+<br />
+<br />
+
+
+# ☎️ Connect with me:
+
+### Social
+[<img align="left" alt="xVoLAnD" width="50px" src="https://raw.githubusercontent.com/xvoland/xvoland/main/images/logo-dotoca.svg" />][home]
+[<img align="left" alt="xvoland | Instagram" width="50px" src="https://raw.githubusercontent.com/xvoland/xvoland/main/images/instagram.svg" />][instagram]
+[<img align="left" alt="Vitalii Tereshchuk | YouTube" width="50px" src="https://raw.githubusercontent.com/xvoland/xvoland/main/images/youtube.svg" />][youtube]
+
+<br />
+<br />
+
 <hr />
 
 # Dutis
@@ -122,3 +191,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/tsonglew/dutis.svg?variant=adaptive)](https://starchart.cc/tsonglew/dutis)
+
+
+[home]: http://dotoca.net
+[homepage]: https://dotoca.net/shuffle-files
+[githubreleases]: https://github.com/xvoland/shuffle-files/releases
+[paypal]: https://paypal.me/xvoland
+[youtube]: https://youtube.com/xvoland
+[instagram]: https://www.instagram.com/xvoland/
