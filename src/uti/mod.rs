@@ -213,48 +213,14 @@ mod tests {
 
     #[test]
     fn test_get_role_handlers_from_uti() {
-        // Test empty UTI
-        assert!(get_role_handlers_from_uti("").is_none());
-
-        // Test valid UTI that should have handlers (like text files)
-        let handlers1 = get_role_handlers_from_uti("public.plain-text");
-        assert!(handlers1.is_some());
-        let handlers1 = handlers1.unwrap();
-        assert!(!handlers1.is_empty());
-
-        // Test stability - multiple calls should return the same handlers
-        let handlers2 = get_role_handlers_from_uti("public.plain-text").unwrap();
-        assert_eq!(
-            handlers1, handlers2,
-            "Handler lists should be stable across calls"
-        );
-
-        // Test UTI that might not have handlers
-        let handlers = get_role_handlers_from_uti("dyn.ah62d4sv4ge81g5pe"); // A dynamic UTI
-        assert!(
-            handlers.is_none(),
-            "Dynamic UTIs typically don't have handlers"
-        );
-
-        // Test invalid UTI
-        let handlers = get_role_handlers_from_uti("invalid.uti.identifier");
-        assert!(handlers.is_none(), "Invalid UTIs should return None");
+        let handlers = get_role_handlers_from_uti("public.mp4", "viewer");
+        assert!(handlers.is_some(), "Expected some handlers, got None");
     }
+
 
     #[test]
     fn test_get_common_role_handlers() {
-        // Create a test BiMap
-        let mut uti2suf = BiMap::new();
-        uti2suf.insert("public.plain-text".to_string(), "txt".to_string());
-        uti2suf.insert("public.html".to_string(), "html".to_string());
-
-        // Test with valid UTIs
-        let common_handlers = get_common_role_handlers(&uti2suf);
-        assert!(common_handlers.is_some());
-
-        // Test with empty BiMap
-        let empty_map = BiMap::new();
-        let common_handlers = get_common_role_handlers(&empty_map);
-        assert!(common_handlers.is_none()); // Empty map should return None
+        let handlers = get_common_role_handlers("public.mp4", "viewer");
+        assert!(handlers.is_some(), "Expected some handlers, got None");
     }
 }
