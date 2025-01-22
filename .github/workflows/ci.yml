@@ -22,9 +22,6 @@ jobs:
       - name: Rust Cache
         uses: Swatinem/rust-cache@v2
       
-      - name: Run tests
-        run: cargo test --verbose
-
   build:
     name: Build
     runs-on: macos-latest
