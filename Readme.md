@@ -190,10 +190,11 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/tsonglew/dutis.svg?variant=adaptive)](https://starchart.cc/tsonglew/dutis)
+📺 You can also watch my Latest YouTube Videos:
 
+<!-- YOUTUBE:START -->
+<!-- YOUTUBE:END -->
 
 [home]: http://dotoca.net
 [homepage]: https://dotoca.net/shuffle-files
