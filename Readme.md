@@ -3,6 +3,8 @@
 I forked this project because it wouldn't compile for MacOS 15.2 (24C101)
 I made some fixes to make it possible.
 
+A command-line tool to manage default applications for file types on macOS. It provides an interactive interface to set default applications for individual file extensions or groups of related file types (like video, audio, images, etc.).
+
 &copy; 2025, [Vitalii Tereshchuk][home] 
 
 ## How to Install and Use
