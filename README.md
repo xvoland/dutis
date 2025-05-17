@@ -194,11 +194,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📺 You can also watch my Latest YouTube Videos:
 
 <!-- YOUTUBE:START -->
+- [Stepan Andriyovych Bandera | AI Animation](https://www.youtube.com/watch?v=dXi-ZVlqrZI)
 - [The Best Magnetic Tripod for Your Phone? | Compact &amp; Super Easy to Use!](https://www.youtube.com/watch?v=8E1wJ_IC5Rw)
 - [ MP3 Tags of Custom Lyrics for Local Files on Apple Music](https://www.youtube.com/watch?v=ZeZOn37xFXA)
 - [💡 New TYPE-C AA Batteries Are Here – Easy Charging with USB!](https://www.youtube.com/watch?v=yFr2sYPvBeM)
 - [🔥💡 Smartest Way to Remove Personal Info from Labels &lpar;You’re Doing It Wrong!&rpar;](https://www.youtube.com/watch?v=-f4xhf9h-pI)
-- [🎹🎵 Так, Малий, Твій Цілунок Странний - Загартована | Yes, Baby, Your Kiss Is Strange - Zagartovana](https://www.youtube.com/watch?v=jUdwbYpCHVg)
 <!-- YOUTUBE:END -->
 
 [home]: http://dotoca.net
