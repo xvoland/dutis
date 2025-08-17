@@ -194,11 +194,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📺 You can also watch my Latest YouTube Videos:
 
 <!-- YOUTUBE:START -->
+- [💰 UAH 10 Hryvnia Coin 2023 – Joint Forces Command of Ukraine | 10 Hryvnia Collector’s Coin](https://www.youtube.com/watch?v=6Xwbtm35xoI)
 - [💰 UAH 10-Hryvnia Coin 2024 | Medical Forces of Ukraine | What is the current price?](https://www.youtube.com/watch?v=hzxMvMFsSys)
 - [💰 UAH 10 Hryvnia Coin 2023 | Support Forces of UkraineDesign &amp; Meaning](https://www.youtube.com/watch?v=5Qk8pAQXZSk)
 - [💰 UAH 10 Hryvnia Coin 2025 – National Guard of Ukraine | What is the current price?](https://www.youtube.com/watch?v=cgfaAY2ZNCI)
 - [Is Binance Cheating Users With This Simple Game or its bug?](https://www.youtube.com/watch?v=yDC6xIRNHwc)
-- [Any photo into STUNNING art in 5 seconds #tutorial #oldphotofix #4kart](https://www.youtube.com/shorts/CCYGcLL1cq8)
 <!-- YOUTUBE:END -->
 
 [home]: http://dotoca.net
