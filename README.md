@@ -195,10 +195,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <!-- YOUTUBE:START -->
 - [🎄 24/7 Cozy Christmas Fireplace | Relaxing Instrumental Music &amp; Crackling Fire 🔥](https://www.youtube.com/watch?v=pILtdVmNIa4)
-- [🎄 24/7 Cozy Christmas Fireplace | Relaxing Instrumental Music &amp; Crackling Fire 🔥](https://www.youtube.com/watch?v=0eEAM7-AFj4)
 - [Create 3D Dioramas in Nano Banana Pro Photoshop AI  #gemini3pro #photoshop #tutorial #design](https://www.youtube.com/shorts/PapDyWzcobQ)
 - [Create Hyper-Realistic 3D Dioramas in Photoshop with Nano Banana Pro &lpar;Step-by-Step Tutorial&rpar;](https://www.youtube.com/watch?v=CA9uAnR46vM)
 - [Typography &lpar;Mosaic&rpar; Portrait with Nano Banana &lpar;Gemini 3&rpar; in Adobe Photoshop  #photoshop #tutorial](https://www.youtube.com/shorts/et2bmRH5UPY)
+- [🍌  How to Create Typography &lpar;Mosaic&rpar; Portrait with Nano Banana &lpar;Gemini 3&rpar; in Adobe Photoshop](https://www.youtube.com/watch?v=3jNAjMiQw3A)
 <!-- YOUTUBE:END -->
 
 [home]: http://dotoca.net
