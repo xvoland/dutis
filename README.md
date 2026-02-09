@@ -194,11 +194,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📺 You can also watch my Latest YouTube Videos:
 
 <!-- YOUTUBE:START -->
+- [3D Animation Coin - Donald J Trump - E PLURIBUS UNUM](https://www.youtube.com/shorts/x3gLBwX4Gng)
 - [Power Button - Save You Money | Double Tap to Lock Your Phone](https://www.youtube.com/shorts/-3ZQmv3_b5U)
 - [Save Money On the Repair Power Button of iPhone With This Simple Trick](https://www.youtube.com/watch?v=dN43NRu_ASU)
 - [Donald Trump Coin | This AI Nano Banana Created a Donald Trump Coin Prompt 💰 &lpar;Viral Image Method&rpar;](https://www.youtube.com/watch?v=5oFypSseiVM)
 - [🔥 LifeHack - Test a Fuse Using Your Phone #lifehacks](https://www.youtube.com/watch?v=DPF-gKLi-eY)
-- [STOP MAC SLEEP | Your Mac Keeps Falling Asleep? Use This Built-In Command](https://www.youtube.com/watch?v=lTa_Z4xNvSE)
 <!-- YOUTUBE:END -->
 
 [home]: http://dotoca.net
