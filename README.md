@@ -194,7 +194,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📺 You can also watch my Latest YouTube Videos:
 
 <!-- YOUTUBE:START -->
-- [🍌 Nano Banana JSX v0.6.0 - Photoshop Plugin Update: Multiple Reference + Gemini 3 Pro &amp; Flash 2.5](https://www.youtube.com/watch?v=ikgUfVfus_s)
+- [🍌 Insame Photoshop JSX Plugin Script - jsxNanaBananaPro Updated &lpar;Multiple References Gemini Pro&rpar;](https://www.youtube.com/watch?v=ikgUfVfus_s)
 - [3D Animation Coin - Donald J Trump - E PLURIBUS UNUM](https://www.youtube.com/shorts/x3gLBwX4Gng)
 - [Power Button - Save You Money | Double Tap to Lock Your Phone](https://www.youtube.com/shorts/-3ZQmv3_b5U)
 - [Save Money On the Repair Power Button of iPhone With This Simple Trick](https://www.youtube.com/watch?v=dN43NRu_ASU)
