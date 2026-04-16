@@ -194,11 +194,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📺 You can also watch my Latest YouTube Videos:
 
 <!-- YOUTUBE:START -->
-- [🔴 WWDC App&#39;s Wall Screensaver | Apple Store Apps Wall  #live #screensaver4k #relax](https://www.youtube.com/watch?v=VD72dMbiTks)
+- [⚡ Simple DIY Repair Old Bike Battery And Install Separate USB Charging Port For Any Device](https://www.youtube.com/watch?v=dNi7ayBp2nk)
 - [🔴 WWDC App&#39;s Wall Screensaver | Apple Store Apps Wall  #live #screensaver4k #relax](https://www.youtube.com/watch?v=tZ3UaYibMso)
+- [🔴 WWDC App&#39;s Wall Screensaver | Apple Store Apps Wall  #live #screensaver4k #relax](https://www.youtube.com/watch?v=VD72dMbiTks)
 - [OptiGrid – Optical Illusion Pattern Generator](https://www.youtube.com/shorts/uJ_X90zbwUQ)
 - [Gemini 3.1 Nano Banana 2 - AI Photoshop Plugin jsxNanaBananaPro v0.6.4](https://www.youtube.com/watch?v=GtspFSN7VlI)
-- [How To Change The Thumbnail for Shorts using the YouTube app for iOS #youtube #techtips #tutorial](https://www.youtube.com/shorts/_1UBbKtWUT4)
 <!-- YOUTUBE:END -->
 
 [home]: http://dotoca.net
