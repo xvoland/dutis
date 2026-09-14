@@ -194,11 +194,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📺 You can also watch my Latest YouTube Videos:
 
 <!-- YOUTUBE:START -->
+- [Fix Language Switching on macOS in Seconds](https://www.youtube.com/watch?v=ApiDujoZh3E)
 - [iPhone Duo - Special Orthodox Editional](https://www.youtube.com/watch?v=kfPH8XVLiLY)
 - [iPhone Duo - Special Edition #iphoneduo #apple #iphone](https://www.youtube.com/shorts/3QBO3kMxQws)
 - [Auto Volume Normalizer - FREE Google Chrome extension](https://www.youtube.com/shorts/qJwIki3qWlc)
 - [🔴  Auto Volume Normalizer - FREE Google Chrome Extension](https://www.youtube.com/watch?v=inoumB94HvQ)
-- [🔴  Zed Editor: How to Install Local Predictions Ollama or Another LLM](https://www.youtube.com/watch?v=84UrjoxWsjI)
 <!-- YOUTUBE:END -->
 
 [home]: http://dotoca.net
